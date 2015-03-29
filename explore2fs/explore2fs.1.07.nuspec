@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Explore2fs is a GUI explorer tool for accessing ext2 and ext3 filesystems. It runs under all versions of Windows and can read almost any ext2 and ext3 filesystem.</description>
     <summary>Graphical Win32 explorer for Linux ex2fs partitions.</summary>
-    <releaseNotes>eads ext2
+    <releaseNotes>Reads ext2
 Reads ext3
 Drag &amp; Drop
 1.44Meg Floppy Disk Support
