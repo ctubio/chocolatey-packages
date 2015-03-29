@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>explore2fs</id>
+        <version>1.07</version>
+        <title>Explore2fs</title>
+        <authors>John Newbigin</authors>
+        <owners>analpaper</owners>
+        <projectUrl>http://www.chrysocome.net/explore2fs</projectUrl>
+        <iconUrl>http://www.chrysocome.net/images/logo.jpg</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Explore2fs is a GUI explorer tool for accessing ext2 and ext3 filesystems. It runs under all versions of Windows and can read almost any ext2 and ext3 filesystem.</description>
+        <summary>Graphical Win32 explorer for Linux ex2fs partitions.</summary>
+        <releaseNotes>eads ext2
+Reads ext3
+Drag &amp; Drop
+1.44Meg Floppy Disk Support
+LS120 Floppy Disk Support
+ZIP &amp; Jazz Disk Support
+USB &amp; CF Disk Support
+CDROM Support
+Supports Windows 98 extended partition scheme
+Export files as binary
+Export files as text
+Export directory
+View/Execute file
+Large disk support
+Large file support
+LVM2
+ReiserFS Detection
+Unicode UTF8 support
+Preserve time stamps on export</releaseNotes>
+        <copyright>chrysocome.net</copyright>
+        <language>es-US</language>
+        <tags>explorer ext3 ext2</tags>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    </files>
+</package>
