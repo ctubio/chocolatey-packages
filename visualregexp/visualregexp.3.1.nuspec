@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>visualregexp.portable</id>
+        <id>visualregexp</id>
         <version>3.1</version>
-        <title>VisualREGEXP (Portable)</title>
+        <title>VisualREGEXP</title>
         <authors>Laurent Riesterer</authors>
         <owners>analpaper</owners>
-        <licenseUrl>http://laurent.riesterer.free.fr/regexp/README</licenseUrl>
         <projectUrl>http://laurent.riesterer.free.fr/regexp/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>VisualREGEXP helps you to design, debug or more generally work with regular expression. As it is often difficult to write the right regexp at the first try, this tool will show you the effect of your regexp on a sample you can choose.</description>
