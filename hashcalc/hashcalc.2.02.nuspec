@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>hashcalc</id>
+        <version>2.02</version>
+        <title>HashCalc</title>
+        <authors>SlavaSoft</authors>
+        <owners>analpaper</owners>
+        <licenseUrl>http://www.slavasoft.com/hashcalc/license-agreement.htm</licenseUrl>
+        <projectUrl>http://www.slavasoft.com/hashcalc/</projectUrl>
+        <iconUrl>http://www.slavasoft.com/images/icons/hashcalc.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A fast and easy-to-use calculator that allows to compute message digests, checksums and HMACs for files, as well as for text and hex strings. It offers a choice of 13 of the most popular hash and checksum algorithms for calculations.</description>
+        <summary>13 most popular hash and checksum algorithms calculations.</summary>
+        <releaseNotes>Support of 12 well-known and documented hash and checksum algorithms: MD2, MD4, MD5, SHA-1, SHA-2( 256, 384, 512), RIPEMD-160, PANAMA, TIGER, ADLER32, CRC32.
+Support of a custom hash algorithm (MD4-based) used in eDonkey and eMule applications.
+Support of 2 modes of calculations: HASH/CHECKSUM and HMAC.
+Support of 3 input data formats: files, text strings and hex strings.
+Work with large size files. (Tested on file sizes up to 15 GB).
+Drag-and-drop support.
+Quick and simple installation.
+Calculates hash/checksum and HMAC for files of any type: music, audio, sound, video, image, icon, text, compression, etc., with the extensions: .mp3, .wav, .avi, .mpg, .midi, .mov, .dvd, .ram, .zip, .rar, .ico, .gif, .pif, .pic, .tif, .tiff, .txt, .doc, .pdf, .wps, .dat, .dll, .hex, .bin, .iso, .cpp, .dss, .par, .pps, .cue, .ram, .md5, .sfv, etc.</releaseNotes>
+        <copyright>Copyright © 2015 SlavaSoft Inc. All rights reserved.</copyright>
+        <language>es-US</language>
+        <tags>development debug hash checksum</tags>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
+    </files>
+</package>
